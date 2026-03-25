@@ -10,3 +10,23 @@ master branch를 main branch로 변경
 
 이슈 발생
 - git push -u origin main 에러 발생 (실습실 컴퓨터는 재부팅시 저장공간을 초기화)
+
+실습실 컴퓨터 사용 시 매주 해야 할 일
+- git-scm.com 들어가서
+Standalone Installer
+Git for Windows/x64 Setup. (Arm 버전 절대 받지 말 것)
+관리자 권한으로 설치. 기본 설정으로 계속 next
+새폴더 만들고 Cloudservice 명으로 변경
+해당 폴더에서 마우스 오른쪽 버튼 git-bash here 클릭
+git init 
+임의의 파일 생성
+git add 파일명
+git commit -m "쓰고 싶은 메시지"
+초기화 됐기 때문에 email 사용자필명 등록 필요
+그리고 다시 커밋
+git remote add origin 본인원격리포지토리주소
+git remote -v 등록 확인
+git push -u origin main (원격 리포지토리에 업로드 및 동기화)
+현재 실습실 컴퓨터는 기본 브라우저가 edge브라우저 인증창 뜨면
+edge브라우저에 뜬 주소를 잘라내기해서 크롬에게 새 탭 띄우고 붙여넣기 인증
+git push (u 옵션 때문에 한번만 git push -origin main 해주면 그 다음부터는 git push만)
