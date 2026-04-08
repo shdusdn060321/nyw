@@ -3,6 +3,7 @@
 
 2교시 
 master branch를 main branch로 변경
+git branch -M main
 
 원격 리포지토리
 - 깃허브 계정 생성
